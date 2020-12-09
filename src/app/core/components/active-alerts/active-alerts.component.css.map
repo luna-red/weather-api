@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,OAAO,EAAE,IAAI",
+"sources": ["active-alerts.component.scss"],
+"names": [],
+"file": "active-alerts.component.css"
+}

@@ -1,0 +1,23 @@
+.flexbox-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.flex-item {
+  width: 196px;
+  min-height: 200px;
+  background-color: #333333;
+  border: 3px solid #454d55; }
+
+.flex-item header {
+  padding: .5em;
+  background-color: #6c757d; }
+
+.flex-item p {
+  padding: .5em; }
+
+@media screen and (max-width: 500px) {
+  .flex-item {
+    width: 100%; } }
+
+/*# sourceMappingURL=area-description.component.css.map */

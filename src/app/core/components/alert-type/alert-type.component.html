@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3 text-right">
+      Alert Types:
+    </div>
+    <div class="col text-right">
+      <select class="form-control form-control-sm" title="weather alerts">
+        <option *ngFor="let item of alertTypes">{{item.name}}</option>
+      </select>
+    </div>
+  </div>
+</div>
