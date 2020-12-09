@@ -14,13 +14,15 @@ import { ActiveAlertsComponent } from './core/components/active-alerts/active-al
 import { AreaDescriptionComponent } from './core/components/area-description/area-description.component';
 import { AlertTypeComponent } from './core/components/alert-type/alert-type.component';
 import { DefaultRoutes } from './app.routes';
+import { DashboardComponent } from './core/components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ActiveAlertsComponent,
     AreaDescriptionComponent,
-    AlertTypeComponent
+    AlertTypeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
